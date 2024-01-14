@@ -20,4 +20,17 @@ public class Areas
 	{
 		return (base*altura)/2;
 	}
+	
+	public static double clcularAreaCircunferencia(double radio)
+	{
+		return 3.1415 * radio * radio;
+		
+	}
+	
+	public static double calcularPerimetroCircunferencia (double radio)
+	{
+		return 2 * 3.1415 * radio;
+	}
+	
+	
 }
