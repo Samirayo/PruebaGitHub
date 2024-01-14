@@ -26,7 +26,7 @@ public class Areas {
 		System.out.println("El perimetro de la circunferencia es: " + perimetroCircunferencia);
 		System.out.println("El area del cilindro es: " + areaCilindro(radio, altura));
 		System.out.println("El area del rectangulo es: "  +calcularAreaRectangulo(base,altura));
-        
+		System.out.println("El volumen del cubo es: " + volumenCubo(base));
     }
 
     public static double calcularArea(double lado1, double lado2) {
@@ -52,7 +52,9 @@ public class Areas {
 		return base * altura;
 	}
 	
-	
+	public static double volumenCubo(double lado) {
+        return Math.pow(lado, 3);
+    }
 
 }
 
