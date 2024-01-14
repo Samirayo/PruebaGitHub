@@ -12,7 +12,7 @@ public class Areas {
 		System.out.println("Ingrese el radio de la circunferencia y el cilindro: ");
 		int radio = entrada.nextInt();
 		
-		System.out.println("adwadwadawdkwaopdopwakdopawkopdwapokdpoawkdpoawkpdakdkoipawhdwASqq");
+		
 
 		double resultado = calcularAreaTriangulo(base, altura);
 		double areaCircunferencia = calcularAreaCircunferencia(radio);
